@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="index.js" defer></script>
+    <title>Info h24</title>
+</head>
+<body class="h-screen grid grid-rows-3">
+    <header class="h-2/5 flex flex-row justify-between items-center bg-slate-200 p-2">
+        <div class="flex flex-row justify-start items-center gap-8">
+            <img class="h-16" src="img/world.png" alt="icon">
+            <h1 class="text-xl tracking-widest">YOUR INFO H24</h1>
+        </div>
+        <button id="myBtn" class="w-3/12 bg-sky-500/75 p-2 rounded-lg text-white hover:text-black">Se connecter</button>
+    </header>
+    <main class="flex flex-col justify-center content-center text-center">
+        <div id="title" class="flex flex-col items-center gap-3">
+            <h1>Bienvennue sur la page YOUR INFO H24</h1>
+            <p>La page qui filtre pour vous les dernières actualités et qui stocke l'historique de vos recherches.</p>
+            <p>Authentifiez-vous pour accéder à votre compte personnel </p>
+            <img src="./img/acceuil.jpg" class="w-1/3 rounded-full" alt="">
+        </div>
+        <form action="" id="form-1" hidden>
+                <input class="border border-sky-500 rounded-lg p-2 m-4 w-3/12" type="email" placeholder="Adresse email"><br>
+                <input class="border border-sky-500 rounded-lg p-2 mb-8 w-3/12"type="password" name="password" placeholder="Mot de passe" minlength="8"><br>
+                <a id="btn" href="./pages/Live.html" class="bg-sky-500/75 w-3/12 my-8 p-3 rounded-lg text-white hover:text-red-600">Valider</a>
+        </form>    
+    </main>
+    <footer class="flex flex col justify-between items-end text-xs">
+        <h1>Designed by Shina YVES</h1>
+        <p >2024</p>
+    </footer>
+</body>
+</html>
